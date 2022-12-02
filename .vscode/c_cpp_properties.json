@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "\\Users\\takeh\\OneDrive\\Desktop\\bat-algorizm\\"
+                "\\Users\\hiroyuki\\Desktop\\bat-algorizm\\"
             ],
             "defines": [
                 "_DEBUG",
