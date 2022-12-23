@@ -33,4 +33,3 @@ firefly_algorithm.o:bat.h nn.h firefly.h
 crane_control.o:nn.h bat.h
 crane-ga01.o: bat.h nn.h ga.h
 crane-cs01.o: bat.h nn.h bat.h
-crane-fa01.o: bat.h nn.h firefly.h
