@@ -25,11 +25,8 @@ clean:
 	$(RM) $(PROGRAM) $(OBJS) *.dat
 
 # ヘッダファイルの依存関係
-crane_3dmodel.o: bat.h
+crane_3dmodel.o: crane.h
 neural_network.o: nn.h
-genetic_algorithm.o:nn.h ga.h
-bat_search.o:bat.h nn.h bat.h
-firefly_algorithm.o:bat.h nn.h firefly.h
-crane_control.o:nn.h bat.h
-crane-ga01.o: bat.h nn.h ga.h
-crane-cs01.o: bat.h nn.h bat.h
+bat_search.o:crane.h nn.h bat.h
+crane_control.o:nn.h crane.h
+crane-cs01.o: crane.h nn.h bat.h
